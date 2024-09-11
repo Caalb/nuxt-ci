@@ -49,5 +49,5 @@ jobs:
       - name: npm run test
         run: |
           npm install
-          npm run dev
+          npm run build --if-present
           npm test
