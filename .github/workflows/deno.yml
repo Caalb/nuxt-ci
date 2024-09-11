@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node_version: ['18.x', '20.x']
+        node_version: ['22.8.0']
         os: [ubuntu-latest, windows-latest, macOS-latest]
 
     steps:
